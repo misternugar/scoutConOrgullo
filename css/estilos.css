@@ -1,0 +1,456 @@
+/*SCOUT CON ORGULLO*/
+
+/*Página principal*/
+
+/* Reseteo propiedades CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #622599;
+}
+
+
+/* LAYAOUT */
+/* Posicionamiento de cajas */
+
+/* Propiedades de cajas */
+
+header {
+    width: 100%;
+    height: 18%;
+    background-color: white;
+    position: relative;
+    
+}
+
+body {
+    height: 108%;
+}
+
+footer{
+    background-color: white;
+    margin-top:50px;
+    width:100%;
+    height:20%;
+}
+
+/* HEADER */
+
+header>nav {
+    width: 100%;
+    float: right;
+    position: absolute;
+    text-align: right;
+    bottom: 0%;
+}
+
+    /*LOGO*/
+
+header>li {
+    position: absolute;
+    left:1%;
+    top: 18%;
+    list-style-type: none;
+}
+
+/* BUSCADOR */ 
+
+#buscador {
+    left: 95%;
+    top: 57%;
+    position: absolute;
+    }
+
+/* TIENDA, CONTACTO y RRSS */
+
+#menuheader{
+    list-style-type: none;
+}
+
+#menuheader:hover{
+    color:#d3b6ed;
+}
+
+header>nav>ul>li{
+    right: 5.25%;
+    position: relative;
+    display: inline-block;
+}
+
+.checkbtn{
+
+    font-size: 28px;
+    color:#622599;
+    float: right;
+    line-height: 30px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+
+#check {
+    display:none;
+}   
+
+
+/* MAIN */
+
+main {
+    position:relative;
+    height: 120%;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    line-height: 45px;
+    position: absolute;
+    right: 68%;
+    width: 29%;
+    top: 25px;
+    z-index: 4;
+}
+
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 21px;
+    text-align: left;
+    text-indent: 30px;
+    line-height: 40px;
+    width: 29%;
+    position: absolute;
+    right: 68%;
+    top: 145px;
+    z-index: 4;
+    text-align: justify;
+}
+
+
+main>section>h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    top: 60px;
+    margin-bottom: 40%;
+    right: 32%;
+    width: 29%;
+    text-align: center;
+}
+
+#noticia1 {
+    position: absolute;
+    top: 110px;
+    margin-bottom: 40%;
+    right: 32%;
+    width: 29%;
+    text-align: center;
+}
+
+#noticia1:hover {
+    filter: grayscale(80%);
+}
+
+#noticia2 {
+    position: absolute;
+    top: 420px;
+    margin-bottom: 40%;
+    right: 32%;
+    width: 29%;
+    text-align: center;
+}
+
+#noticia2:hover {
+    filter: grayscale(80%);
+}
+
+main>nav>ul{
+    list-style-type: none;
+}
+
+main>img {
+    position: absolute;
+    right: 70%; 
+}
+
+main>nav>img{
+    position:absolute;
+    bottom: 10%;
+    top: 60px;
+    margin-bottom: 40%;
+    right: 15%;
+}
+
+#menu ul {
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    bottom: 55%;
+    font-size: 22px;
+    top: 150px; 
+    left: 78.5%;
+    width: 20%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+#menu li{
+    list-style-type:none;
+    position:relative;
+    width:120px;
+    margin-bottom: 15%;
+}
+
+#menu li a{
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 10px;
+    width:120px;
+    height:30px;
+    color:#fff;
+}
+
+    /*Menú desplegable*/
+
+#menu ul ul li a:hover{
+    color: indigo;
+    text-align: left;
+}
+
+#menu nav li ul{
+    display:none;
+    position:absolute;
+    top:0px;
+    left:120px;
+}
+
+#menu ul ul {
+    display:none;
+    position:relative;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding:0;
+   }
+
+#menu ul ul li {
+    float:none;
+    width:150px
+   }
+
+#menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+
+#menu ul li:hover > ul {
+    display:block;
+}
+
+#colonia:hover{
+    color:turquoise;
+}
+
+#manada:hover{
+    color:yellow;
+}
+
+#scout:hover{
+    color:rgba(125, 224, 125, 0.705);
+}
+
+#unidad:hover{
+    color:rgb(185, 157, 120);
+}
+
+#clan:hover{
+    color:red;
+}
+
+#kraal:hover{
+    color:#d3b6ed;
+}
+
+#asde:hover{
+    color:#d3b6ed;
+}
+
+/* FOOTER */
+
+    /*LOGO*/
+
+    footer>img {
+        position: absolute;
+        left:48%;
+        top: 145%;
+    }
+
+    /* RRSS */
+  
+    footer>nav>ul{
+        position: absolute;
+        display: inline-flex;
+        list-style-type: none;
+        top: 155%;
+        left: 43.5%;
+    }
+
+    /* Responsive */
+
+        /* Tablet */
+
+@media (max-width: 952px) {
+
+            /* logo */
+
+.enlace{
+    padding-left: 20px;
+}
+
+            /* Buscador */
+
+#buscador {
+    top: 52%;
+    }
+
+            /* Main */
+h1{
+    font-size: 35px;
+    width: 35%;
+    left: 25px;
+}
+p {
+    font-size: 15px;
+    top: 135px;
+    left: 25px;
+    width: 31%;
+}
+
+main section h2{
+    font-size: 15px;
+    left: 400px;
+}
+
+            /* Flor de lis */
+
+#menu img{
+    right: 64px;
+}
+
+            /* Menu main vertical */ 
+
+#menu ul{
+    left: 775px;
+    top: 155px;
+    float: left;
+    font-size: 18px;
+    position: relative;
+}
+
+#menu li:hover ul{
+    z-index: 5;
+}
+
+        /* Footer */
+
+footer img{
+    left: 468px;
+}
+
+}
+
+/* Móvil */
+
+@media (max-width: 858px) {
+
+    /* Body */
+
+    body{
+        height: 100%;
+    }
+
+    /* Menú header */
+
+    .checkbtn{
+        display: block;
+        margin-bottom: 4px;
+    }
+    #buscador {
+        top: 58%;
+        }
+    
+    #menuheader {
+        position: fixed;
+        width: 100%;
+        height: 20%;
+        background: white;
+        top: 110px;
+        left: -100%;
+        transition: all .5s;
+        text-align: center;
+        z-index: 5;
+    }
+    
+    #check:checked ~ #menuheader{
+        left: 0;
+    }
+
+    /* Main */
+
+main nav img{
+    left: 550px;
+    position: relative;
+}
+
+h1{
+    font-size: 30px;
+    width: auto;
+    top: 25px;
+    margin-left: 3%;
+}
+p {
+    font-size: 15px;
+    width: auto;
+    margin-left: 3%;
+    top: 165px;
+}
+main section h2{
+    font-size: 15px;
+    left: 375px;
+}
+
+    /* Menú secciones vertical */
+
+#menu ul{
+    font-size: 18px;
+    left: 680px;
+    top: 150px;
+    float: left;
+    position: relative;
+}
+
+#menu li:hover ul{
+    z-index: 9;
+}
+
+    /* Footer */
+
+footer img{
+    left: 425px;
+}
+
+}

@@ -108,7 +108,7 @@ main {
 
 #saludo {
     right: 55.8%;
-    top:42%
+    top:22%
 }
 
 main>nav>ul {
@@ -254,13 +254,13 @@ main>nav>img{
 /* FORMULARIO */
 
 #registro{
-    position: relative;
-    border: black solid 2px;
+    position: absolute;
+    top: 55%;
+    right: 50%;
     width: 15%;
     padding-left: 3%;
     padding-top: 3%;
     padding-bottom: 3%;
-   
 }
 
 input {

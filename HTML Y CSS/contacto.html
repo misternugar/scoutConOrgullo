@@ -98,26 +98,22 @@
     </main>
     <form id="registro" method="#" action="#">
         
-      <label for="nombre"></label>
-      <input type="text" id="nombre" value="Nombre y/o tótem:" required />
+      <label for="nombre">Nombre y/o tótem <input type="text" id="nombre" required /></label>
       <span class = "noValido">Este campo no puede estar vacío</span>
       
-      <label for="email">E-mail: </label>
-      <input type="email" id="email" required />
+      <label for="email">E-mail <input type="email" id="email" required /></label>
       <span class="noValido">La dirección de e-mail no es correcta</span>
       <span class="valido">La dirección de e-mail es correcta</span>
 
-      <label for="telefono">Telefono: </label>
-      <input type="number" step="1" value="25" id="edad" />
+      <label for="telefono">Teléfono de contacto <input type="number" id="telefono"/></label>
 
-      <label for="socio">Número de socio: </label>
-      <input type="number" step="1" value="25" id="edad" />
+      <label for="socio"> Número de socio <input type="number" id="socio" /> </label>
       
-      <label for="grupo">Grupo Scout: </label>
-      <input type="text" id="grupo" required />
+      <label for="grupo">Grupo Scout <input type="text" id="grupo" required /></label>
 
-      <label for="seccion">Sección: </label>
-      <input type="text" id="grupo" required />
+      <label for="seccion">Sección <select id="seccion" required><option value="">Colonia</option><option value="">Manada</option><option value="">Sección Scout</option><option value="">Unidad</option><option value="">Clan</option><option value="">Scouter</option></select></label>
+
+      <label for="mensaje">Mensaje <input type="text" id="mensaje" required /></label>
       
       <input type="submit" id="enviar" value="Enviar" />
       

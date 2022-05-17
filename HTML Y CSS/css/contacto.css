@@ -251,6 +251,92 @@ main>nav>img{
     color:#d3b6ed;
 }
 
+/* FORMULARIO */
+
+#registro{
+    position: relative;
+    border: black solid 2px;
+    width: 15%;
+    margin: 0 35%;
+    padding-left: 3%;
+    margin-top: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+   
+}
+
+input {
+    border: solid 1px gray;
+    width: 200px;
+}
+label, input{
+    display: block;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 3%;
+}
+    
+input[type=submit]{
+    width: 75px;
+    display: block;
+    margin-top: 3%;
+    background: none;
+}
+input:focus:invalid:not(#edad) {
+    background: url(../Imagenes/cancelar.png) no-repeat 98% center;
+}
+
+input:focus:valid:not(#enviar, #edad) {
+    background: url(../Imagenes/marca-de-verificacion.png) no-repeat 98% center;
+}
+
+span.noValido {
+    display: none;
+    position: relative;
+    left: 100px;
+    width: 230px;
+    margin-bottom: 3%;
+    border: solid 1px red;
+    background-color: lightgoldenrodyellow;
+    padding: 3px;
+    text-align: center;
+}
+
+input:focus:invalid + span.noValido {
+    display: block;
+}
+
+span.valido {
+    display: none;
+    position: relative;
+    left: 250px;
+    top: 5px;
+    width: 230px;
+    border: solid 1px green;
+    background-color: lightgreen;
+    padding: 3px;
+    text-align: center;
+}
+
+input:focus:invalid ~ span.noValido, input:focus:valid ~
+
+span.valido {
+display: block;
+}
+
+
+input#edad:out-of-range {
+background-color: lightpink;
+}
+input#edad:in-range {
+background-color: lightgreen;
+}
+
+
 /* FOOTER */
 
     /*LOGO*/

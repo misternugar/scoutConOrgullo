@@ -363,6 +363,10 @@ input#edad:in-range {
 background-color: lightgreen;
 }
 
+#enviar{
+    color: black;
+}
+
 
 /* FOOTER */
 

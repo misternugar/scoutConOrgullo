@@ -161,10 +161,9 @@ main>nav>img{
 #menu ul {
     position: relative;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    bottom: 55%;
-    font-size: 22px;
     top: 150px;
-    left: 78.5%;
+    font-size: 22px;
+    left: 80.5%;
     width: 20%;
     margin-bottom: 4%;
     text-align: center;
@@ -273,6 +272,10 @@ input {
 
 #mensaje{
     height: 200px;
+}
+
+select{
+    font-size: 18px;
 }
 
 label{

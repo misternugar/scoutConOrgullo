@@ -261,11 +261,18 @@ main>nav>img{
     padding-left: 3%;
     padding-top: 3%;
     padding-bottom: 3%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 input {
     border: solid 1px black;
     width: 300px;
+    color:#d3b6ed;
+    height: 35px;
+}
+
+#mensaje{
+    height: 200px;
 }
 
 label{
@@ -301,7 +308,6 @@ input[type=submit]{
     margin-top: 5%;
     background: none;
     background-color: white;
-    color: #622599;
     left: 99%;
 }
 input:focus:invalid:not(#edad) {

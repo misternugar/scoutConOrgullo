@@ -147,9 +147,9 @@ p {
 
 #video {
     position: relative;
-    top: 300px;
+    top: 320px;
     left: 3%;
-    image-rendering: auto;
+    width: 30%;
     z-index: 100;
 }
 
@@ -216,7 +216,7 @@ main>nav>img {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     bottom: 170px;
     font-size: 22px;
-    left: 80.5%;
+    left: 78.5%;
     width: 20%;
     margin-bottom: 4%;
     text-align: center;
@@ -224,8 +224,7 @@ main>nav>img {
 
 #menu li {
     list-style-type: none;
-    position: relative;
-    width: 120px;
+    width: 0px;
     margin-bottom: 15%;
 }
 

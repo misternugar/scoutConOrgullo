@@ -31,20 +31,20 @@ html {
 
 header {
     width: 100%;
-    height: 18%;
+    height: 15%;
     background-color: white;
     position: relative;
 }
 
 body {
-    height: 108%;
+    height: 135%;
 }
 
 footer {
     background-color: white;
     margin-top: 50px;
     width: 100%;
-    height: 18%;
+    height: 21%;
 }
 
 
@@ -114,11 +114,6 @@ header>nav>ul>li {
 main {
     position: relative;
     height: 120%;
-}
-
-#saludo {
-    right: 55.8%;
-    top: 22%
 }
 
 main>nav>ul {
@@ -264,8 +259,8 @@ main>nav>img {
 
 #registro {
     position: absolute;
-    bottom: 345px;
-    right: 53%;
+    top: 400px;
+    right: 58%;
     width: 15%;
     padding-left: 3%;
     padding-top: 3%;
@@ -321,15 +316,15 @@ input[type=submit] {
     margin-top: 5%;
     background: none;
     background-color: white;
-    left: 99%;
+    left: 146%;
 }
 
-input:focus:invalid:not(#edad) {
-    background: url(../IMÁGENES/cancelar.png) no-repeat 98% center;
+input:focus:valid:not(#enviar, #telefono, #socio) {
+    background: url(../IMÁGENES/marca-de-verificacion.png) no-repeat 94% center;
 }
 
-input:focus:valid:not(#enviar, #edad) {
-    background: url(../IMÁGENES/marca-de-verificacion.png) no-repeat 98% center;
+input:focus:invalid:not(#enviar, #telefono, #socio) {
+    background: url(../IMÁGENES/cancelar.png) no-repeat 94% center;
 }
 
 span.noValido {
@@ -363,14 +358,6 @@ span.valido {
 input:focus:invalid~span.noValido,
 input:focus:valid~span.valido {
     display: block;
-}
-
-input#edad:out-of-range {
-    background-color: lightpink;
-}
-
-input#edad:in-range {
-    background-color: lightgreen;
 }
 
 #Acceso_registro {

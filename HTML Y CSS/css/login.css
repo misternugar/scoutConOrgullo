@@ -1,0 +1,552 @@
+/*SCOUT CON ORGULLO*/
+
+/*Página principal*/
+
+/* Reseteo propiedades CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #622599;
+}
+
+
+/* LAYAOUT */
+/* Posicionamiento de cajas */
+
+/* Propiedades de cajas */
+
+header {
+    width: 100%;
+    height: 18%;
+    background-color: white;
+    position: relative;
+    
+}
+
+body {
+    height: 108%;
+}
+
+footer{
+    background-color: white;
+    margin-top:50px;
+    width:100%;
+    height:18%;
+}
+/* HEADER */
+
+header>nav {
+    width: 100%;
+    float: right;
+    position: absolute;
+    text-align: right;
+    bottom: 0%;
+}
+
+    /*LOGO*/
+
+    header>li {
+        position: absolute;
+        left:1%;
+        top: 18%;
+        list-style-type: none;
+    }
+
+    /* BUSCADOR */ 
+
+    #buscador {
+        left: 95%;
+        top: 57%;
+        position: absolute;
+        }
+
+    /* TIENDA, CONTACTO y RRSS */
+
+    #menuheader{
+        list-style-type: none;
+    }
+
+    #menuheader:hover{
+        color:#d3b6ed;
+    }
+
+    header>nav>ul>li{
+        right: 5.25%;
+        position: relative;
+        display: inline-block;
+    }
+
+    .checkbtn{
+
+        font-size: 28px;
+        color:#622599;
+        float: right;
+        line-height: 30px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    
+    }
+    
+    #check {
+        display:none;
+    }   
+
+/* MAIN */
+
+main {
+    position:relative;
+    height: 120%;
+}
+
+#saludo {
+    right: 55.8%;
+    top:22%
+}
+
+main>nav>ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    right: 33%;
+    width: 50%;
+    top: 55px;
+    z-index: 4;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 40px;
+    width: 40%;
+    position: absolute;
+    right: 38%;
+    top: 145px;
+    z-index: 4;
+    text-align: center;
+}
+
+
+
+main>img {
+    position: absolute;
+    right: 70%; 
+}
+
+main>nav>img{
+    position:absolute;
+    bottom: 10%;
+    top: 60px;
+    margin-bottom: 40%;
+    right: 15%;
+}
+
+#menu ul {
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 150px;
+    font-size: 22px;
+    left: 80.5%;
+    width: 20%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+#menu li{
+    list-style-type:none;
+    position:relative;
+    width:120px;
+    margin-bottom: 15%;
+}
+
+#menu li a{
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 10px;
+    width:120px;
+    height:30px;
+    color:#fff;
+}
+
+    /*Menú desplegable*/
+
+#menu ul ul li a:hover{
+    color: indigo;
+    text-align: left;
+}
+
+#menu nav li ul{
+    display:none;
+    position:absolute;
+    top:0px;
+    left:120px;
+}
+
+#menu ul ul {
+    display:none;
+    position:relative;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding:0;
+   }
+
+#menu ul ul li {
+    float:none;
+    width:150px
+   }
+
+#menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+
+#menu ul li:hover > ul {
+    display:block;
+}
+
+#colonia:hover{
+    color:turquoise;
+}
+
+#manada:hover{
+    color:yellow;
+}
+
+#scout:hover{
+    color:rgba(125, 224, 125, 0.705);
+}
+
+#unidad:hover{
+    color:rgb(185, 157, 120);
+}
+
+#clan:hover{
+    color:red;
+}
+
+#kraal:hover{
+    color:#d3b6ed;
+}
+
+#asde:hover{
+    color:#d3b6ed;
+}
+
+/* FORMULARIO */
+
+#registro{
+    position: absolute;
+    bottom: 345px;
+    right: 53%;
+    width: 15%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+    border: solid 1px black;
+    width: 300px;
+    color:#d3b6ed;
+    height: 35px;
+}
+
+#mensaje{
+    height: 200px;
+}
+
+select{
+    font-size: 18px;
+}
+
+label{
+    color: white;
+    display: block;
+    margin-top: 10%;
+}
+
+#telefono label {
+    position: relative;
+    right: 28%;
+    padding-top: 2%;
+    width: 200px;
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 8%;
+}
+    
+#socio label {
+    position: relative;
+    right: 30%;
+    padding-top: 2%;
+    width: 200px;
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 3%;
+}
+
+input[type=submit]{
+    position: relative;
+    width: 75px;
+    display: block;
+    margin-top: 5%;
+    background: none;
+    background-color: white;
+    left: 99%;
+}
+input:focus:invalid:not(#edad) {
+    background: url(../IMÁGENES/cancelar.png) no-repeat 98% center;
+}
+
+input:focus:valid:not(#enviar, #edad) {
+    background: url(../IMÁGENES/marca-de-verificacion.png) no-repeat 98% center;
+}
+
+span.noValido {
+    display: none;
+    position: relative;
+    left: 100px;
+    width: 230px;
+    margin-bottom: 3%;
+    border: solid 1px red;
+    background-color: lightgoldenrodyellow;
+    padding: 3px;
+    text-align: center;
+}
+
+input:focus:invalid + span.noValido {
+    display: block;
+}
+
+span.valido {
+    display: none;
+    position: relative;
+    left: 250px;
+    top: 5px;
+    width: 230px;
+    border: solid 1px green;
+    background-color: lightgreen;
+    padding: 3px;
+    text-align: center;
+}
+
+input:focus:invalid ~ span.noValido, input:focus:valid ~
+
+span.valido {
+display: block;
+}
+
+
+input#edad:out-of-range {
+background-color: lightpink;
+}
+input#edad:in-range {
+background-color: lightgreen;
+}
+
+#Acceso_registro {
+    position: absolute;
+    top: 285px;
+    left: 94px;
+    width: 212px;
+    text-align: center;
+    text-decoration:underline;
+    color:#fff;
+}
+
+#Acceso_registro:hover{
+    color: #d3b6ed;
+}
+
+
+/* FOOTER */
+
+    /*LOGO*/
+
+    footer>img {
+        position: absolute;
+        left:48%;
+        top: 145%;
+    }
+
+    /* RRSS */
+  
+    footer>nav>ul{
+        position: absolute;
+        display: inline-flex;
+        list-style-type: none;
+        top: 155%;
+        left: 43.5%;
+    }
+
+    
+    /* Responsive */
+
+        /* Tablet */
+
+@media (max-width: 952px) {
+
+    /* logo */
+
+.enlace{
+padding-left: 20px;
+}
+
+    /* Buscador */
+
+#buscador {
+top: 52%;
+}
+
+    /* Main */
+
+h1{
+font-size: 35px;
+width: 35%;
+left: 250px;
+text-align: center;
+}  
+
+p {
+font-size: 15px;
+top: 150px;
+left: 270px;
+text-align: center;
+width: 30%;
+}
+
+#saludo {
+    left: 385px;
+}
+
+
+    /* Flor de lis */
+
+#menu img{
+right: 64px;
+}
+
+    /* Menu main vertical */ 
+
+#menu ul{
+left: 760px;
+top: 155px;
+float: left;
+font-size: 18px;
+position: relative;
+}
+
+#menu li:hover ul{
+z-index: 5;
+}
+
+/* Footer */
+
+footer img{
+left: 458px;
+}
+
+}
+
+/* Móvil */
+
+@media (max-width: 858px) {
+
+/* Body */
+
+body{
+height: 100%;
+}
+
+/* Menú header */
+
+.checkbtn{
+display: block;
+margin-bottom: 4px;
+}
+#buscador {
+top: 58%;
+}
+
+#menuheader {
+position: fixed;
+width: 100%;
+height: 20%;
+background: white;
+top: 110px;
+left: -100%;
+transition: all .5s;
+text-align: center;
+z-index: 5;
+}
+
+#check:checked ~ #menuheader{
+left: 0;
+}
+
+/* Main */
+
+main nav img{
+left: 550px;
+position: relative;
+}
+
+h1{
+font-size: 35px;
+width: 35%;
+left: 250px;
+text-align: center;
+}  
+
+p {
+font-size: 15px;
+top: 150px;
+left: 270px;
+text-align: center;
+width: 30%;
+}
+
+#saludo {
+    left: 370px;
+}
+
+/* Menú secciones vertical */
+
+#menu ul{
+font-size: 18px;
+left: 680px;
+top: 150px;
+float: left;
+position: relative;
+}
+
+#menu li:hover ul{
+z-index: 9;
+}
+
+/* Footer */
+
+footer img{
+left: 420px;
+}
+
+}

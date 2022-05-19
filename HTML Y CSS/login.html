@@ -4,58 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <title>Scout Con Orgullo</title>
+    <title>Scout Con Orgullo. Login.</title>
 </head>
 <body>
-    <header>
+  <header>
       
-      <li>
-        <a href="index.html" class="enlace">
-        <img src="IMÁGENES/LOGO LIS BLANCA PEQUEÑO.png" alt=""></a>
-      </li>
+    <li>
+      <a href="index.html" class="enlace">
+      <img src="IMÁGENES/LOGO LIS BLANCA PEQUEÑO.png" alt=""></a>
+    </li>
 
-      <a id="buscador" href="http://wwww.tudominio.com/page5.html"><img src="IMÁGENES/logo buscador.png" alt=""></a>
+    <a id="buscador" href="http://wwww.tudominio.com/page5.html"><img src="IMÁGENES/logo buscador.png" alt=""></a>
 
-      
+    <nav>
 
-      <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fa-solid fa-bars"></i>
+      </label> 
 
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-          <i class="fa-solid fa-bars"></i>
-        </label> 
-
-        <ul id="menuheader">
-          <li><a class="active" href="https://www.youtube.com/"><img src="IMÁGENES/logo youtube ok.png" alt=""></a></li>
-          <li><a href="http://www.twitter.com"><img src="IMÁGENES/logo twitter Copy.png" alt=""></a></li>
-          <li><a href="http://www.facebook.com"><img src="IMÁGENES/logo facebook Copy.png" alt=""></a></li>
-          <li><a href="http://www.instagram.com"><img src="IMÁGENES/logo instagram ok.png" alt=""></a></li>
-          <li><a href="http://wwww.tudominio.com/page5.html"><img src="IMÁGENES/logo tienda.png" alt=""></a></li>
-          <li><a href="contacto.html"><img src="IMÁGENES/logo contacto.png" alt=""></a></li>
-          <li><a href="login.html"><img src="IMÁGENES/uservalido.png" alt=""></a></li>
-        </ul>
-      </nav>
-    </header>
-
+      <ul id="menuheader">
+        <li><a class="active" href="https://www.youtube.com/"><img src="IMÁGENES/logo youtube ok.png" alt=""></a></li>
+        <li><a href="http://www.twitter.com"><img src="IMÁGENES/logo twitter Copy.png" alt=""></a></li>
+        <li><a href="http://www.facebook.com"><img src="IMÁGENES/logo facebook Copy.png" alt=""></a></li>
+        <li><a href="http://www.instagram.com"><img src="IMÁGENES/logo instagram ok.png" alt=""></a></li>
+        <li><a href="http://wwww.tudominio.com/page5.html"><img src="IMÁGENES/logo tienda.png" alt=""></a></li>
+        <li><a href="contacto.html"><img src="IMÁGENES/logo contacto.png" alt=""></a></li>
+        <li><a href="login.html"><img src="IMÁGENES/uservalido.png" alt=""></a></li>
+      </ul>
+    </nav>
+  </header>
+  
     <main>
-      <h1>Scout Con Orgullo, ¡tu tribu online!</h1>
-      <p>Un portal hecho por y para Scouts donde podrás encontrar recursos, curiosidades, eventos y mucho más, para disfrutar junto a tus hermanas y hermanos.</p>
-
-      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Hkixo-upT0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+      <h1>¡APRETÓN DE MANO IZQUIERDA!</h1>
+     
       <img src="IMÁGENES/LOGO LIS fondo morado 800.png" alt="">
-
-      <section>
-        <h2>ÚLTIMAS NOTICIAS</h2>
-        <article>
-          <a id="noticia1" href="https://www.scout.es/convocatoria-equipos-y-servicios-2021/"><img src="IMÁGENES/10-09.png" alt=""></a>
-        </article>
-        <article>
-          <a id="noticia2" href="https://www.scout.es/rover-week-campamento-griebal/"><img src="IMÁGENES/06-09.png" alt=""></a>
-        </article>
-      </section>
       
       <nav id="menu">
 
@@ -107,6 +92,19 @@
         </ul>
       </nav>      
     </main>
+    <form id="registro" method="#" action="#">
+      
+      <label for="email">E-mail <input type="email" id="email" required /></label>
+      <span class="noValido">La dirección de e-mail no es correcta</span>
+      <span class="valido">La dirección de e-mail es correcta</span>
+      
+      <label for="grupo">Grupo Scout <input type="text" id="grupo" required /></label>
+      
+      <input type="submit" id="enviar" value="Enviar" />
+
+      <a id="Acceso_registro" href="https://www.scout.es/wp-content/uploads/paz-castores.pdf">¿Aún no estás registrado?¡¿A qué esperas?!</a>
+      
+    </form>
     <footer>
       <img src="IMÁGENES/LOGO LIS BLANCA muyPEQUEÑO.png" alt="">
 

@@ -258,12 +258,11 @@ main>nav>img {
     top: 100%;
     left: 0;
     background: #eee;
-    padding: 0;
 }
 
 #menu ul ul li {
     float: none;
-    width: 150px
+    width: 150px;
 }
 
 #menu ul ul a {

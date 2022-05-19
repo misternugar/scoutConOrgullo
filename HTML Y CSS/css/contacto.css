@@ -191,6 +191,11 @@ main>nav>img {
 
 /*Menú desplegable*/
 
+#menu li {
+    position: relative;
+    right: 11%;
+}
+
 #menu ul ul li a:hover {
     color: indigo;
     text-align: left;
@@ -198,16 +203,12 @@ main>nav>img {
 
 #menu nav li ul {
     display: none;
-    position: absolute;
-    top: 0px;
-    left: 120px;
 }
 
 #menu ul ul {
     display: none;
     position: relative;
     top: 100%;
-    left: 0;
     background: #eee;
     padding: 0;
 }

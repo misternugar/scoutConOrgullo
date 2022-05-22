@@ -20,6 +20,13 @@ html {
     background-color: #622599;
 }
 
+footer {
+    background-color: white;
+    margin-top: 50px;
+    width: 100%;
+    height: 20%;
+}
+
 
 /* LAYAOUT */
 
@@ -33,6 +40,11 @@ header {
     width: 100%;
     height: 18%;
     background-color: white;
+    position: relative;
+}
+
+html {
+    min-height: 100%;
     position: relative;
 }
 
@@ -341,7 +353,7 @@ footer>nav>ul {
     }
     /* Main */
     h1 {
-        font-size: 35px;
+        font-size: 25px;
         width: 35%;
         left: 25px;
     }
@@ -350,6 +362,9 @@ footer>nav>ul {
         top: 135px;
         left: 25px;
         width: 31%;
+    }
+    #video {
+        top: 350px;
     }
     main section h2 {
         font-size: 15px;
@@ -361,8 +376,8 @@ footer>nav>ul {
     }
     /* Menu main vertical */
     #menu ul {
-        left: 775px;
-        top: 155px;
+        left: 740px;
+        bottom: 185px;
         float: left;
         font-size: 18px;
         position: relative;
@@ -412,7 +427,7 @@ footer>nav>ul {
         position: relative;
     }
     h1 {
-        font-size: 30px;
+        font-size: 20px;
         width: auto;
         top: 25px;
         margin-left: 3%;
@@ -421,7 +436,10 @@ footer>nav>ul {
         font-size: 15px;
         width: auto;
         margin-left: 3%;
-        top: 165px;
+        top: 115px;
+    }
+    #video {
+        top: 415px;
     }
     main section h2 {
         font-size: 15px;
@@ -431,7 +449,7 @@ footer>nav>ul {
     #menu ul {
         font-size: 18px;
         left: 680px;
-        top: 150px;
+        bottom: 180px;
         float: left;
         position: relative;
     }
